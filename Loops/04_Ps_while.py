@@ -4,11 +4,11 @@
 #     print(num)
 #     num += 1
 
-# # qs2
-# i = 100
-# while i >= 1:
-#     print(i)
-#     i -= 1
+# qs2
+i = 100
+while i >= 1:
+    print(i)
+    i -= 1
 
 # # qs3
 # n = int(input("Enter the numer: "))
