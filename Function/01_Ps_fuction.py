@@ -62,9 +62,19 @@
 # print(result)
 
 
-def find(num):
-    print("Even" if num%2 == 0 else "Odd")
+# def find(num):
+#     print("Even" if num%2 == 0 else "Odd")
 
-num = int(input("Enter number: "))
+# num = int(input("Enter number: "))
 
-find(num)
+# find(num)
+
+
+# def calc_sum(a,b):
+#     sum = (a+b)
+#     print(sum)
+
+# calc_sum(5,6)
+
+
+
