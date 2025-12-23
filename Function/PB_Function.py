@@ -91,4 +91,4 @@ def reverse_string():
     text = input("Enter a text: ")
     return text[:: -1]
 
-print(reverse_string())
+print(reverse_string()) 
