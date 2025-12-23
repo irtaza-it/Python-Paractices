@@ -37,6 +37,19 @@ print_list(color)
 
 print_len(cities)
 
+'''Qno 3(b)'''
+
+def list(text):
+    total = 0
+    for word in text:
+        total += len(word)
+    return total
+
+user_input = input("Enter a text with spacing: ")
+text = user_input.split()
+
+print(text)
+
 
 '''Qno 4'''
 
