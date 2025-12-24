@@ -106,3 +106,27 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 print(great_num())
+
+'''Qno 10'''
+
+def reverse_string():
+    return text[:: -1]
+
+text = input("Enter a word: ")
+
+print(reverse_string())
+
+
+'''Qno 11'''
+
+def sum_list(lst):
+    total = 0
+    for chr in lst:
+        total += chr
+    return total
+
+user_input = input("Enter a word with spacing: ")
+
+lst = input(user_input.split())
+
+print(sum_list)
