@@ -92,3 +92,17 @@ def reverse_string():
     return text[:: -1]
 
 print(reverse_string()) 
+
+
+'''Qno 9'''
+
+def great_num():
+    if num1 > num2:
+        return f"Greater number is {num1}"
+    elif num2 > num1:
+        return f"Greater number is {num2}"
+    
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+
+print(great_num())
